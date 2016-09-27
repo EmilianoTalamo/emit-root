@@ -1,0 +1,105 @@
+@font-face {
+  font-family: myriad;
+  src: url('files/MYRIADPRO-COND.OTF');
+}
+
+@font-face {
+  font-family: myriadtwo;
+  src: url('files/MYRIADPRO-SEMIBOLD.OTF')
+}
+
+body{
+  background-image: url('files/bg.png');
+}
+
+.main{
+  width: 50%;
+  background-color: RGBA(251,250,249,0.3);/*#FBFAF9*/
+  border: 5px solid #7B7B7B;
+  border-radius: 20px;
+  margin-top: 90px;
+  margin-left: 60px;
+  transition: background-color 5s;
+}
+
+.main:hover{
+  background-color: #FBFAF9;
+}
+
+.main img{
+  border: 1px solid lightgrey;
+  padding: 3px;
+  width: 200px;
+  margin: 10px;
+}
+
+.main img:hover{
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+h1{
+  color: #000000;
+  font-family: myriad;
+  font-size: 30pt;
+  margin-left: 30px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  font-family: myriadtwo;
+  color: #55687B;
+  text-decoration: none;
+  transition: color .4s;
+}
+
+a:hover{
+  color: #AEA18A;
+}
+
+iframe{
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  border: 1px solid lightgrey;
+  padding: 1px;
+  border-radius: 2px;
+}
