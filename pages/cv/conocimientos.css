@@ -1,0 +1,80 @@
+#conocimientos h1{
+    font-size: 44pt;
+    margin-bottom: 30px;
+}
+
+#conocimientos #barras{
+  width: 1100px;
+  margin: auto;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+#conocimientos .barras .columnauno ul li{
+  list-style: none;
+  font-size: 22pt;
+  font-family: myriad;
+  display: inline;
+  width: 400px;
+}
+
+#conocimientos .barras .columnauno ul li img{
+  position: relative;
+  bottom: 33px;
+  left: 250px;
+  display: block;
+}
+
+#conocimientos .barras .columnados, #conocimientos .barras .columnauno{
+  display: inline-block;
+}
+
+.columnados{
+  margin-left: 390px;
+}
+
+#conocimientos .barras .columnados ul li{
+  list-style: none;
+  font-size: 22pt;
+  font-family: myriad;
+  display: inline;
+  width: 400px;
+}
+
+#conocimientos .barras .columnados ul li img{
+  position: relative;
+  bottom: 33px;
+  left: 250px;
+  display: block;
+}
+
+#conocimientos{
+  margin-bottom: 70px;
+}

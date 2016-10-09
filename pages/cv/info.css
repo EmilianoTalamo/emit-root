@@ -1,0 +1,40 @@
+#info{
+  position:relative;
+}
+
+#info h1{
+  text-align: right;
+  background-color: #BF4D5E;
+  font-size: 60pt;
+  line-height: 64pt;
+  padding-right: 32px;
+}
+
+#info .emi{
+  z-index: 0;
+  position: absolute;
+  width: 800px;
+  bottom: -52px;
+  left: -2px;
+}
+
+#info ul li{
+  list-style: none;
+  font-family: gidole;
+  font-size: 28pt;
+  margin-bottom: 4px;
+}
+
+#info ul{
+  margin-top: 40px;
+  margin-left: 640px;
+  margin-bottom: 50px;
+  z-index: 3
+}
+
+#info li img{
+  height: 64px;
+  position: relative;
+  top: 18px;
+  right: 20px
+}

@@ -1,0 +1,48 @@
+.studyblock h2{
+  font-size: 42pt;
+  margin-left: 30px;
+  font-family: gidole;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.studyblock p{
+  margin-top: 0px;
+  font-family: myriad;
+  margin-left: 34px;
+  font-size: 22pt;
+  margin-bottom: -10px;
+  padding-bottom: 0;
+}
+
+.carrera{
+  font-family: myriadcond;
+  font-size: 18pt;
+  margin-left: 86px;
+}
+
+.studyblock .studysublock p{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 18pt;
+}
+
+.studysublock h2{
+  margin-bottom: 8px;
+}
+
+.studyblock .studysublock .cond{
+  font-size: 18pt;
+  margin-left: 56px;
+  margin-top: -40px;
+}
+
+.condos{
+  font-size: 18pt;
+  margin-left: 53px;
+  font-family: myriadcond;
+}
+
+.studysublock{
+  margin-top: 30px;
+}
