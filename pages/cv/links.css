@@ -72,3 +72,24 @@
     transform: scale3d(1, 1, 1);
   }
 }
+
+a .pop{
+  font-family: myriad;
+  display:inline;
+  position:absolute;
+  visibility: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #000000;
+  padding: 5px;
+  color: #000000;
+  text-align: left;
+  font-weight: normal;
+  opacity:0;
+  transition: opacity 200ms linear;
+}
+
+a:hover .pop{
+  visibility: visible;
+  z-index: 3;
+  opacity: 1;
+}
