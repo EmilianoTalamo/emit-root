@@ -8,14 +8,23 @@
   font-size: 60pt;
   line-height: 64pt;
   padding-right: 32px;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 
 #info .emi{
   z-index: 0;
   position: absolute;
-  width: 800px;
+  width: 600px;
   bottom: -52px;
   left: -2px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events:none;
 }
 
 #info ul li{
@@ -26,7 +35,7 @@
 }
 
 #info ul{
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 640px;
   margin-bottom: 50px;
   z-index: 3

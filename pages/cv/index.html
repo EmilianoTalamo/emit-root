@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Guido Emiliano Tálamo | CV</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
   <link rel="stylesheet" href="formato.css">
   <link rel="stylesheet" href="estudios.css">
   <link rel="stylesheet" href="conocimientos.css">
   <link rel="stylesheet" href="info.css">
+  <link rel="stylesheet" href="links.css">
 </head>
 
 <body>
@@ -43,6 +45,26 @@
 
 </div>
 
+<div id="links">
+  <div id="lang">
+    <img src="rsc/toen.png" alt="Change language" usemap="#langchange">
+    <map id="langchange" name="langchange">
+      <area shape="rect" coords="490,0,600,110" href="index-en.html" alt="Change language" title="Change language" />
+    </map>
+  </div>
+    <h1>Enlaces</h1>
+    <ul>
+      <li><a href="#info"><img src="rsc/links/datos.png" alt="" width="128" title="Mis datos"></a></li>
+      <li><a href="https://ar.linkedin.com/in/guido-emiliano-t%C3%A1lamo-3b893811a" target="_blank" title="LinkedIn"><img src="rsc/links/li.png" alt="" width="128"></a></li>
+      <li><a href="https://github.com/EmilianoTalamo/" target="_blank"><img src="rsc/links/github.png" alt="" title="GitHub" width="128"></a></li>
+    </ul>
+
+    <h1>Proyectos universitarios</h1>
+    <ul>
+      <li><a href="https://emilianotalamo.github.io/proyectos/michu/" target="_blank"><img src="rsc/links/michu.png" alt="" title="Michu Meszaros" width="128"></a></li>
+    </ul>
+</div>
+
 <div id="conocimientos">
 
   <h1>Conocimientos</h1>
@@ -50,25 +72,25 @@
   <div class="barras">
     <div class="columnauno">
       <ul>
-        <li>Inglés <img src="rsc/3bar.png" alt="3" height=28 /></li>
-        <li>Android <img src="rsc/4bar.png" alt="4" height=28 /></li>
-        <li>Hardware de PC <img src="rsc/4bar.png" alt="4" height=28 /></li>
-        <li>HTML <img src="rsc/3bar.png" alt="3" height=28 /></li>
-        <li>CSS <img src="rsc/2bar.png" alt="2" height=28 /></li>
-        <li>Windows <img src="rsc/3bar.png" alt="3" height=28 /></li>
-        <li>Fotografía <img src="rsc/2bar.png" alt="2" height=28 /></li>
+        <li>Inglés <img src="rsc/3bar.png" alt="3" height="28" /></li>
+        <li>Android <img src="rsc/4bar.png" alt="4" height="28" /></li>
+        <li>Hardware de PC <img src="rsc/4bar.png" alt="4" height="28" /></li>
+        <li>HTML <img src="rsc/3bar.png" alt="3" height="28" /></li>
+        <li>CSS <img src="rsc/2bar.png" alt="2" height="28" /></li>
+        <li>Windows <img src="rsc/3bar.png" alt="3" height="28" /></li>
+        <li>Fotografía <img src="rsc/2bar.png" alt="2" height="28" /></li>
       </ul>
     </div>
 
     <div class="columnados">
       <ul>
-        <li>Redes sociales <img src="rsc/4bar.png" alt="4" height=28 /></li>
-        <li>MS Word <img src="rsc/4bar.png" alt="4" height=28 /></li>
-        <li>MS Excel <img src="rsc/3bar.png" alt="3" height=28 /></li>
-        <li>MS Powerpoint <img src="rsc/4bar.png" alt="4" height=28 /></li>
-        <li>Photoshop <img src="rsc/3bar.png" alt="3" height=28 /></li>
-        <li>Illustrator <img src="rsc/2bar.png" alt="2" height=28 /></li>
-        <li>Sony Vegas <img src="rsc/3bar.png" alt="3" height=28 /></li>
+        <li>Redes sociales <img src="rsc/4bar.png" alt="4" height="28" /></li>
+        <li>MS Word <img src="rsc/4bar.png" alt="4" height="28" /></li>
+        <li>MS Excel <img src="rsc/3bar.png" alt="3" height="28" /></li>
+        <li>MS Powerpoint <img src="rsc/4bar.png" alt="4" height="28" /></li>
+        <li>Photoshop <img src="rsc/3bar.png" alt="3" height="28" /></li>
+        <li>Illustrator <img src="rsc/2bar.png" alt="2" height="28" /></li>
+        <li>Sony Vegas <img src="rsc/3bar.png" alt="3" height="28" /></li>
       </ul>
 
 
@@ -94,5 +116,15 @@
 </div>
 
 </div>
+
+<script>
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+
 </body>
 </html>

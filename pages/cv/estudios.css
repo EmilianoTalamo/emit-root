@@ -46,3 +46,8 @@
 .studysublock{
   margin-top: 30px;
 }
+
+#estudios{
+  display: inline-block;
+  width: 596px;
+}

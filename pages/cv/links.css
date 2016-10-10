@@ -1,0 +1,69 @@
+#links{
+  display: inline-block;
+  width: 596px;
+  vertical-align: top;
+}
+
+#links h1{
+  background-color: #BF4D5E;
+  margin-top: 10px;
+  line-height: 55px;
+  padding-left: 30px;
+  font-size: 38pt;
+  margin-right: -6px;
+  border: 4px solid #BF4D5E;
+  border-radius: 2px
+}
+
+#links ul{
+  list-style: none;
+}
+
+#links ul li{
+  display: inline-block;
+  margin: 5px 20px;
+}
+
+#links ul li a img{
+  transition: transform 1s ease-out;
+}
+
+#links ul li a img:hover{
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
