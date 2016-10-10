@@ -11,22 +11,26 @@
 
 #links h1{
   background-color: #BF4D5E;
+  background-image: none;
   margin-top: 10px;
   line-height: 55px;
   padding-left: 30px;
   font-size: 38pt;
   margin-right: -10px;
+  margin-left: -20px;
   border: 4px solid #BF4D5E;
-  border-radius: 2px
+  border-radius: 4px;
 }
 
 #links ul{
   list-style: none;
+  margin-left: -30px;
 }
 
 #links ul li{
   display: inline-block;
-  margin: 5px 20px;
+  margin: 5px 14px 10px 0;
+  padding-right: 0;
 }
 
 #links ul li a img{
@@ -74,16 +78,21 @@
 }
 
 a .pop{
+  pointer-events:none;
   font-family: myriad;
   display:inline;
   position:absolute;
+  margin-top: 104px;
+  margin-left: -150px;
+  margin-right: 0;
+  width: 160px;
   visibility: hidden;
   background-color: #FFFFFF;
-  border: solid 2px #000000;
+  border: solid 2px #CCCEC2;
+  border-radius: 15px;
   padding: 5px;
   color: #000000;
-  text-align: left;
-  font-weight: normal;
+  text-align: center;
   opacity:0;
   transition: opacity 200ms linear;
 }
@@ -91,5 +100,5 @@ a .pop{
 a:hover .pop{
   visibility: visible;
   z-index: 3;
-  opacity: 1;
+  opacity: 0.9;
 }
