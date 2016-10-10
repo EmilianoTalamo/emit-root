@@ -1,7 +1,12 @@
+#lang img{
+  margin-left: 3px;
+}
+
 #links{
   display: inline-block;
   width: 596px;
   vertical-align: top;
+  margin-left: -4px;
 }
 
 #links h1{
@@ -10,7 +15,7 @@
   line-height: 55px;
   padding-left: 30px;
   font-size: 38pt;
-  margin-right: -6px;
+  margin-right: -10px;
   border: 4px solid #BF4D5E;
   border-radius: 2px
 }
