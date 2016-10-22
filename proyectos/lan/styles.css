@@ -1,0 +1,49 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  z-index: 900;
+  -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
+}
+
+#headercont{
+  width: 960px;
+  margin: auto;
+}
+
+#headercont img{
+  width: 175px;
+  height: 75px;
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  display: inline;
+  vertical-align: middle;
+}
+
+li{
+  display: inline-block;
+  width: 15%;
+  background-image: url(rsc/chevron.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.inises{
+  background-image: none;
+}
+
+/*fin header*/
+
+#fm{
+  width: 100%;
+}
