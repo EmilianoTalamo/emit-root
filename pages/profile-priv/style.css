@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  font-family: myriadcond;
+  src: url('myriadcond.otf');
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url('Ubuntu-R.ttf');
+}
+
+.left{
+  display: inline;
+  width: 45%;
+}
+
+.right{
+  display: inline;
+  vertical-align: top;
+}
+
+.bg{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+}
+
+.bio{
+  position: relative;
+  left: 2%;
+  top: 3%;
+  width: 500px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border: 2px solid #FFEDE5;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.bio h1{
+  font-family: myriadcond;
+  font-size: 8em;
+  line-height: 110%;
+  margin: 0;
+  text-align: left;
+}
+
+.bio p{
+  font-family: ubuntu;
+}
