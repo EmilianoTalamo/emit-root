@@ -14,20 +14,21 @@ body{
 }
 
 .left{
-  display: inline;
+  display: inline-block;
   width: 45%;
 }
 
 .right{
-  display: inline;
+  display: inline-block;
   vertical-align: top;
 }
 
 .bg{
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   height: 50%;
+  z-index: 0;
 }
 
 .bio{
@@ -37,9 +38,10 @@ body{
   width: 500px;
   background-color: #FFFFFF;
   padding: 30px;
-  border: 2px solid #FFEDE5;
+  border: 2px solid black;
   border-radius: 50px;
   z-index: 2;
+  margin: 20px;
 }
 
 .bio h1{
@@ -52,4 +54,42 @@ body{
 
 .bio p{
   font-family: ubuntu;
+  font-size: 3ex;
+}
+
+.rs{
+  width: 86px;
+  padding: 20px;
+  padding-top: 50px;
+  transition: filter 500ms;
+}
+
+.rs:hover{
+  filter: invert(100%);
+}
+
+.pop{
+  pointer-events:none;
+  font-family: myriad;
+  display:inline;
+  position:absolute;
+  margin-top: 104px;
+  margin-left: -150px;
+  margin-right: 0;
+  width: 160px;
+  visibility: hidden;
+  background-color: #FFFFFF;
+  border: solid 2px #CCCEC2;
+  border-radius: 15px;
+  padding: 5px;
+  color: #000000;
+  text-align: center;
+  opacity:0;
+  transition: opacity 200ms linear;
+}
+
+.right a:hover .pop{
+  visibility: visible;
+  z-index: 3;
+  opacity: 0.95;
 }
