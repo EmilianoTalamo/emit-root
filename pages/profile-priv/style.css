@@ -15,27 +15,31 @@ body{
 
 .left{
   display: inline-block;
+  position: relative;
   width: 40%;
   min-width: 600px;
   padding-right: 30px;
   vertical-align: top;
+  z-index: 1;
 }
 
 .right{
+  position: relative;
   width: 50%;
   display: inline-block;
+  z-index: 2;
 }
 
 .bgdiv{
   height: 100%;
   width: 100%;
+  z-index: 0;
 }
 
 .bg{
-  position: absolute;
-  bottom: 0;
-  left: 0;
   height: 50%;
+  margin-top: -100px;
+  z-index: 0;
 }
 
 .bio{
@@ -59,11 +63,6 @@ body{
 .bio p{
   font-family: ubuntu;
   font-size: 3ex;
-}
-
-.rsdiv{
-  display: inline;
-  margin: auto;
 }
 
 .rs{
