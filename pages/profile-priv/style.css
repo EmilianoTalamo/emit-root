@@ -37,9 +37,11 @@ body{
 }
 
 .bg{
+  position: absolute;
   height: 50%;
-  margin-top: -100px;
+  transform: translateY(-22px);
   z-index: 0;
+  overflow: hidden;
 }
 
 .bio{
@@ -71,6 +73,11 @@ body{
   margin: 20px;
   padding-top: 20px;
   transition: filter 500ms;
+  line-height: 0;
+}
+
+.rs a{
+  padding: 0;
 }
 
 .rs:hover{

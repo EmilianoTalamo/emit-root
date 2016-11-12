@@ -9,97 +9,35 @@
 }
 
 body{
-  background-image: url('files/bg.png');
+  background-color: #F3F3F5;
+  padding: 0;
+  margin: 0;
 }
 
-.main{
+.datos{
   width: 50%;
-  background-color: RGBA(251,250,249,0.3);/*#FBFAF9*/
-  border: 5px solid #7B7B7B;
-  border-radius: 20px;
-  margin-top: 90px;
-  margin-left: 60px;
-  transition: background-color 5s;
+  min-width: 600px;
+  margin: auto;
+  margin-top: 3%;
 }
 
-.main:hover{
-  background-color: #FBFAF9;
+div>img{
+  width: 30%;
 }
 
-.main img{
-  border: 1px solid lightgrey;
-  padding: 3px;
-  width: 200px;
-  margin: 10px;
-}
-
-.main img:hover{
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  animation-duration: 1s;
-}
-
-@-webkit-keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-h1{
-  color: #000000;
+.bio>h2{
   font-family: myriad;
-  font-size: 30pt;
-  margin-left: 30px;
+  font-size: 4em;
 }
 
-li{
-  list-style: none;
-}
-
-a{
+.bio p{
   font-family: myriadtwo;
-  color: #55687B;
-  text-decoration: none;
-  transition: color .4s;
+  font-size: 3ex;
 }
 
-a:hover{
-  color: #AEA18A;
-}
-
-iframe{
-  position: fixed;
-  right: 50px;
-  top: 50px;
-  border: 1px solid lightgrey;
-  padding: 1px;
-  border-radius: 2px;
+.bio{
+  display: inline-block;
+  width: 60%;
+  margin-left: 4%;
+  vertical-align: top;
 }
