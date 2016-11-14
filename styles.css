@@ -14,14 +14,18 @@ body{
   margin: 0;
 }
 
+li{
+  list-style: none;
+}
+
 .datos{
-  width: 50%;
+  width: 900px;
   min-width: 600px;
   margin: auto;
   margin-top: 3%;
 }
 
-div>img{
+.datos>img{
   width: 30%;
 }
 
@@ -40,4 +44,26 @@ div>img{
   width: 60%;
   margin-left: 4%;
   vertical-align: top;
+}
+
+.rrss ul{
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.rrss li{
+  margin: auto;
+  padding: 5px;
+  display: inline;
+}
+
+.rs{
+  width: 192px;
+  filter: grayscale(0.2);
+  transition: filter 200ms, transform 200ms;
+}
+
+.rs:hover{
+  filter: grayscale(0);
+  transform: scale(1.05);
 }
