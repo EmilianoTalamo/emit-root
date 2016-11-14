@@ -1,4 +1,9 @@
+html{
+  padding-bottom: 400px;
+}
+
 body{
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -24,24 +29,22 @@ body{
 }
 
 .right{
-  position: relative;
   width: 50%;
   display: inline-block;
   z-index: 2;
 }
 
 .bgdiv{
-  height: 100%;
-  width: 100%;
+  width: 40%;
   z-index: 0;
 }
 
 .bg{
-  position: absolute;
-  height: 50%;
-  transform: translateY(-22px);
+  width: 70%;
+  height: 20%;
   z-index: 0;
   overflow: hidden;
+  transform: translateY(-50px);
 }
 
 .bio{

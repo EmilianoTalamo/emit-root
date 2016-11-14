@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.png">
   <title>Emi</title>
@@ -38,8 +39,8 @@
     <a href="http://forum.xda-developers.com/member.php?u=4062845" target="_blank"><img class="rs" src="rs/xda.svg" alt="xda-developers" /><span class="pop">xda-developers</span></a>
     <a href="https://github.com/EmilianoTalamo/" target="_blank"><img class="rs" src="rs/github.svg" alt="GitHub" /><span class="pop">GitHub</span></a>
   </div>
-  <div class="bgdiv">
-  <script>
+<!--  <div class="bgdiv">
+   <script>
     var rand = Math.floor((Math.random()*4)+1);
     switch(rand){
       case 1:
@@ -56,6 +57,26 @@
       break;
     }
   </script>
-</div>
+</div> -->
+
+<script>
+  var rand = Math.floor((Math.random()*4)+1);
+  switch(rand)
+  {
+    case 1:
+    $('html').css('background', 'url(bg/cm.jpg) bottom left no-repeat border-box');
+    break;
+    case 2:
+    $('body').css('background', 'url(bg/dva.jpg) bottom left no-repeat border-box');
+    break;
+    case 3:
+    $('body').css('background', 'url(bg/reaper.jpg) bottom left no-repeat border-box');
+    break;
+    case 4:
+    $('body').css('background', 'url(bg/sb.jpg) bottom left no-repeat border-box');
+    break;
+  }
+</script>
+
 </body>
 </html>
