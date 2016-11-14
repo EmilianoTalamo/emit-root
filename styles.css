@@ -47,14 +47,15 @@ li{
 }
 
 .rrss ul{
-  margin: 0 auto;
+  text-align: center;
+  margin: auto;
   padding: 30px;
 }
 
 .rrss li{
   margin: auto;
   padding: 5px;
-  display: inline;
+  display: inline-block;
 }
 
 .rs{
