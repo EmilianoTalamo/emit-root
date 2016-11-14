@@ -47,6 +47,7 @@ li{
 }
 
 .rrss ul{
+  max-width: 1060px;
   text-align: center;
   margin: auto;
   padding: 30px;
