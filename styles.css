@@ -19,16 +19,19 @@ li{
 }
 
 .datos{
-  width: 900px;
-  min-width: 600px;
+  min-width: 715px;
+  max-width: 900px;
   margin: auto;
+  text-align: center;
   margin-top: 3%;
+  vertical-align: center;
 }
 
 .emi{
   display: inline-block;
   width: 200px;
   height: 200px;
+  margin: 0 auto;
   background-image: url(files/thinking.png);
   background-size: cover;
   background-position: center left;
@@ -40,11 +43,13 @@ li{
   margin-top: 10px;
   font-family: myriad;
   font-size: 4em;
+  text-align: left;
 }
 
 .bio p{
   font-family: myriadtwo;
   font-size: 3ex;
+  text-align: left;
 }
 
 .bio{
