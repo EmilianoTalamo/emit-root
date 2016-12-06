@@ -70,7 +70,7 @@ li{
 .rrss li{
   margin: auto;
   padding: 5px;
-  display: inline-block;
+  display: hidden;
   animation-fill-mode: both;
 }
 
