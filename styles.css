@@ -8,13 +8,6 @@
   src: url('files/MYRIADPRO-SEMIBOLD.OTF')
 }
 
-.preload *{
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}
-
 body{
   background-color: #F3F3F5;
   padding: 0;
@@ -78,7 +71,6 @@ li{
   margin: auto;
   padding: 5px;
   display: inline-block;
-  animation: fadeInUp 1s;
   animation-fill-mode: both;
 }
 
@@ -122,7 +114,7 @@ li{
 }
 
 .sk-folding-cube {
-  margin: 20px auto;
+  margin: 60px auto;
   width: 40px;
   height: 40px;
   position: relative;
