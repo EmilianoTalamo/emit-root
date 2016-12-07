@@ -1,11 +1,13 @@
 html{
-  padding-bottom: 400px;
+  padding-bottom: 455px;
 }
 
 body{
   height: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @font-face{
@@ -18,37 +20,29 @@ body{
   src: url('Ubuntu-R.ttf');
 }
 
+ul{
+  list-style: none;
+}
+
 .left{
-  display: inline-block;
-  position: relative;
+  box-sizing: border-box;
   width: 40%;
-  min-width: 600px;
-  padding-right: 30px;
-  vertical-align: top;
+  padding: 30px;
+  padding-top: 6px;
   z-index: 1;
+  margin: auto;
 }
 
 .right{
-  width: 50%;
-  display: inline-block;
+  box-sizing: border-box;
+  width: 60%;
+  min-width: 720px;
   z-index: 2;
-}
-
-.bgdiv{
-  width: 40%;
-  z-index: 0;
-}
-
-.bg{
-  width: 70%;
-  height: 20%;
-  z-index: 0;
-  overflow: hidden;
-  transform: translateY(-50px);
+  margin: auto;
 }
 
 .bio{
-  width: 500px;
+  width: 90%;
   background-color: #FFFFFF;
   padding: 30px;
   border: 2px solid black;
@@ -70,17 +64,23 @@ body{
   font-size: 3ex;
 }
 
-.rs{
-  width: 86px;
-  display: inline-block;
-  margin: 20px;
-  padding-top: 20px;
-  transition: filter 500ms;
-  line-height: 0;
+.right ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.rs a{
-  padding: 0;
+.right ul li{
+  margin: 20px;
+  margin-top: 14px;
+  width: 100px;
+}
+
+.rs{
+  transition: filter 300ms;
+  line-height: 0;
 }
 
 .rs:hover{
@@ -92,8 +92,8 @@ body{
   font-family: ubuntu;
   display:inline;
   position:absolute;
-  margin-top: 134px;
-  margin-left: -135px;
+  margin-top: 100px;
+  margin-left: -122px;
   margin-right: 0;
   width: 128px;
   visibility: hidden;
@@ -106,7 +106,7 @@ body{
   transition: opacity 200ms linear;
 }
 
-.right a:hover .pop{
+.right ul li:hover .pop{
   visibility: visible;
   z-index: 3;
   opacity: 0.95;
