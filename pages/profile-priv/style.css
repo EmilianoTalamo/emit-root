@@ -111,3 +111,28 @@ ul{
   z-index: 3;
   opacity: 0.95;
 }
+
+.right ul li a > img{
+  animation: fade 1s 1s;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fade{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes fade{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
