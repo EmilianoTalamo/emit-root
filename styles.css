@@ -52,12 +52,14 @@ li{
   font-family: myriad;
   font-size: 4em;
   text-align: left;
+  color: #222;
 }
 
 .bio p{
   font-family: myriadtwo;
   font-size: 3ex;
   text-align: left;
+  color: #222;
 }
 
 .bio{
