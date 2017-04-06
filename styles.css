@@ -147,24 +147,6 @@ li{
 }
 }
 
-
-/*
-
-
-
-.bio{
-  display: inline-block;
-  margin-left: 40px;
-  width: 640px;
-  vertical-align: top;
-}
-
-.rs{
-
-}
-
-
-*/
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
