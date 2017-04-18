@@ -81,7 +81,7 @@ li{
   width: 22vw;
 }
 
-@media screen and (min-width: 400px) and (orientation: landscape){
+@media screen and (min-width: 481px){
   .datos{
     width: 85%;
     margin: auto;
