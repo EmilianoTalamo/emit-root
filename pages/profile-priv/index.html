@@ -1,65 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="favicon.png">
-  <title>Emi</title>
+<head xmlns:fb="http://ogp.me/ns/fb#">
+	<title>Emiliano Tálamo</title>
+	<meta charset="utf-8" />
+	<meta name="theme-color" content="#f3f3f5">
+	<meta name="msapplication-navbutton-color" content="#f3f3f5">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#f3f3f5">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="viewport" content="width=device-width" initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="files/favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
 </head>
+
 <body>
-  <div class="left">
-    <div class="bio">
-      <h1>Holis</h1>
-      <p>Si entraste a este link, quiere decir que <u>me estás stalkeando</u>. No está mal, todos lo hacemos, así que para facilitarte el trabajo te dejo los links a todas mis redes sociales :). Debería rediseñar esta web.</p>
-    </div>
-  </div>
 
-  <div class="right">
-    <ul>
-      <li><a href="http://facebook.com/emilianotalamo" target="_blank"><img class="rs" src="rs/fb.svg" alt="Facebook" /><span class="pop">Facebook</span></a></li>
-      <li><a href="http://twitter.com/arrobaEmit" target="_blank"><img class="rs" src="rs/twitter.svg" alt="Twitter" /><span class="pop">Twitter</span></a></li>
-      <li><a href="https://web.telegram.org/#/im?p=@EmilianoTalamo" target="_blank"><img class="rs" src="rs/telegram.svg" alt="Telegram" /><span class="pop">Telegram</span></a></li>
-      <li><a href="https://www.instagram.com/emilianotalamo/" target="_blank"><img class="rs" src="rs/ig.svg" alt="Instagram" /><span class="pop">Instagram</span></a></li>
-      <li><a href="http://steamcommunity.com/id/emilianotalamo/" target="_blank"><img class="rs" src="rs/steam.svg" alt="Steam" /><span class="pop">Steam</span></a></li>
-      <li><a href="http://www.last.fm/user/EmilianoTalamo" target="_blank"><img class="rs" src="rs/lastfm.svg" alt="Last.fm" /><span class="pop">Last.fm</span></a></li>
-      <li><a href="http://open.spotify.com/user/emilianotalamo" target="_blank"><img class="rs" src="rs/spotify.svg" alt="Spotify" /><span class="pop">Spotify</span></a></li>
-      <li><a href="https://www.overbuff.com/players/pc/EmiTalamo-1999" target="_blank"><img class="rs" src="rs/bnet.svg" alt="Battle.net" /><span class="pop">Battle.net</span></a></li>
-      <li><a href="https://plus.google.com/110606509366116572535" target="_blank"><img class="rs" src="rs/gplus.svg" alt="Google+" /><span class="pop">Google+</span></a></li>
-      <li><a href="https://www.youtube.com/channel/UCCQdlhWW73mY7FGykZhw9KQ" target="_blank"><img class="rs" src="rs/yt.svg" alt="YouTube" /><span class="pop">YouTube</span></a></li>
-      <li><a href="https://ask.fm/EmilianoTalamo" target="_blank"><img class="rs" src="rs/ask.svg" alt="Ask.fm" /><span class="pop">Ask.fm</span></a></li>
-      <li><a href="https://foursquare.com/emilianotalamo" target="_blank"><img class="rs" src="rs/swarm.svg" alt="4sq/Swarm" /><span class="pop">4sq/Swarm</span></a></li>
-      <li><a href="https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q" target="_blank"><img class="rs" src="rs/yelp.svg" alt="Yelp" /><span class="pop">Yelp</span></a></li>
-      <li><a href="https://pinterest.com/emilianotalamo/" target="_blank"><img class="rs" src="rs/pinterest.svg" alt="Pinterest" /><span class="pop">Pinterest</span></a></li>
-      <li><a href="https://ar.linkedin.com/in/guido-emiliano-t%C3%A1lamo-3b893811a" target="_blank"><img class="rs" src="rs/linkedin.svg" alt="LinkedIn" /><span class="pop">LinkedIn</span></a></li>
-      <li><a href="http://emilianotalamo.tumblr.com/" target="_blank"><img class="rs" src="rs/tumblr.svg" alt="Tumblr" /><span class="pop">Tumblr</span></a></li>
-      <li><a href="https://www.reddit.com/user/EmilianoTalamo/" target="_blank"><img class="rs" src="rs/reddit.svg" alt="reddit" /><span class="pop">reddit</span></a></li>
-      <li><a href="https://www.tvshowtime.com/en/user/5476699/profile" target="_blank"><img class="rs" src="rs/tvst.svg" alt="TVshowtime" /><span class="pop">TVShowTime</span></a></li>
-      <li><a href="http://snapchat.com/add/emitalamo" target="_blank"><img class="rs" src="rs/snapchat.svg" alt="Snapchat" /><span class="pop">Snapchat</span></a></li>
-      <li><a href="http://forum.xda-developers.com/member.php?u=4062845" target="_blank"><img class="rs" src="rs/xda.svg" alt="xda-developers" /><span class="pop">xda-developers</span></a></li>
-      <li><a href="https://github.com/EmilianoTalamo/" target="_blank"><img class="rs" src="rs/github.svg" alt="GitHub" /><span class="pop">GitHub</span></a></li>
-    </ul>
-  </div>
+	<div class="datos">
+		<div class="emi" id="emi"></div>
+		<div class="bio">
+			<h2>Holis</h2>
 
-<script>
-  var rand = Math.floor((Math.random()*4)+1);
-  switch(rand)
-  {
-    case 1:
-    $('html').css('background', 'url(bg/cm.jpg) bottom left no-repeat border-box');
-    break;
-    case 2:
-    $('html').css('background', 'url(bg/dva.jpg) bottom left no-repeat border-box');
-    break;
-    case 3:
-    $('html').css('background', 'url(bg/reaper.jpg) bottom left no-repeat border-box');
-    break;
-    case 4:
-    $('html').css('background', 'url(bg/sb.jpg) bottom left no-repeat border-box');
-    break;
-  }
-</script>
+			<p>Si entraste a este link, quiere decir que <span class="underline">me estás stalkeando</span>. No está mal, todos lo hacemos, así que para facilitarte el trabajo te dejo los links a todas mis redes sociales :)</p></div>
+	</div>
+
+	<div class="sk-folding-cube">
+		<div class="sk-cube1 sk-cube"></div>
+		<div class="sk-cube2 sk-cube"></div>
+		<div class="sk-cube4 sk-cube"></div>
+		<div class="sk-cube3 sk-cube"></div>
+	</div>
+
+	<div class="rrss">
+		<ul>
+			<li><a href="http://facebook.com/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/fb.svg" alt="Facebook" /></a></li>
+			<li><a href="http://twitter.com/arrobaEmit" target="_blank"><img class="rs" src="files/rrss/tw.svg" alt="Twitter" /></a></li>
+			<li><a href="http://open.spotify.com/user/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/spoty.svg" alt="Spotify" /></a></li>
+			<li><a href="https://ar.linkedin.com/in/guido-emiliano-t%C3%A1lamo-3b893811a" target="_blank"><img class="rs" src="files/rrss/linkedin.svg" alt="LinkedIn" /></a></li>
+			<li><a href="https://www.instagram.com/emilianotalamo/" target="_blank"><img class="rs" src="files/rrss/ig.svg" alt="Instagram" /></a></li>
+			<li><a href="https://www.youtube.com/channel/UCCQdlhWW73mY7FGykZhw9KQ" target="_blank"><img class="rs" src="files/rrss/yt.svg" alt="YouTube" /></a></li>
+			<li><a href="http://steamcommunity.com/id/emilianotalamo/" target="_blank"><img class="rs" src="files/rrss/steam.svg" alt="Steam" /></a></li>
+			<li><a href="https://pinterest.com/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/pinterest.svg" alt="Pinterest" /></a></li>
+			<li><a href="https://www.tvshowtime.com/en/user/5476699/profile" target="_blank"><img class="rs" src="files/rrss/tvst.svg" alt="TVshowtime" /></a></li>
+			<li><a href="http://www.last.fm/user/EmilianoTalamo" target="_blank"><img class="rs" src="files/rrss/lastfm.svg" alt="Last.fm" /></a></li>
+			<li><a href="https://foursquare.com/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/swarm.svg" alt="Swarm" /></a></li>
+			<li><a href="https://emilianotalamo.tumblr.com" target="_blank"><img class="rs" src="files/rrss/tumblr.svg" alt="Tumblr" /></a></li>
+			<li><a href="https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q" target="_blank"><img class="rs" src="files/rrss/yelp.svg" alt="Yelp" /></a></li>
+			<li><a href="https://web.telegram.org/#/im?p=@EmilianoTalamo" target="_blank"><img class="rs" src="files/rrss/tg.svg" alt="Telegram" /></a></li>
+			<li><a href="https://github.com/EmilianoTalamo/" target="_blank"><img class="rs" src="files/rrss/git.svg" alt="GitHub" /></a></li>
+			<li><a href="https://plus.google.com/110606509366116572535" target="_blank"><img class="rs" src="files/rrss/gplus.svg" alt="Google Plus" /></a></li>
+			<li><a href="http://snapchat.com/add/emitalamo" target="_blank"><img class="rs" src="files/rrss/snap.svg" alt="Snapchat" /></a></li>
+			<li><a href="https://www.overbuff.com/players/pc/EmiTalamo-1999" target="_blank"><img class="rs" src="files/rrss/bnet.svg" alt="Battle.Net" /></a></li>
+			<li><a href="https://www.reddit.com/user/EmilianoTalamo/" target="_blank"><img class="rs" src="files/rrss/reddit.svg" alt="Reddit" /></a></li>
+			<li><a href="http://forum.xda-developers.com/member.php?u=4062845" target="_blank"><img class="rs" src="files/rrss/xda.svg" alt="XDA-Developers" /></a></li>
+			<li><a href="https://ask.fm/EmilianoTalamo" target="_blank"><img class="rs" src="files/rrss/ask.svg" alt="AskFM" /></a></li>
+		</ul>
+	</div>
+
+	<audio src="files/audio/1.ogg"></audio>
+	<audio src="files/audio/2.ogg"></audio>
+	<audio src="files/audio/3.ogg"></audio>
+	<audio src="files/audio/4.ogg"></audio>
+	<audio src="files/audio/5.ogg"></audio>
+	<audio src="files/audio/6.ogg"></audio>
+	<audio src="files/audio/7.ogg"></audio>
+	<audio src="files/audio/8.ogg"></audio>
+	<audio src="files/audio/9.ogg"></audio>
+	<audio src="files/audio/10.ogg"></audio>
+	
+	<script>
+		var audioi = 10;
+		var audio = document.getElementsByTagName("audio");
+		var audiop = audio[0];
+		document.getElementById("emi").onclick = function()
+		{
+			if(audioi >= 9)
+			{
+				audioi = 0;
+			}
+			else
+			{
+				audioi++;
+			}
+			console.log(audioi);
+			audiop.pause();
+			audiop.currentTime = 0;
+			audiop = audio[audioi];
+			console.log(audiop);
+			audiop.play();
+		};
+	</script>
+
+	<script>
+		$(window).load(function() {
+			$(".sk-folding-cube").css('display','none');
+			$(".rrss li").css('display','inline-block');
+			$(".rrss li").css('animation','fadeInUp 1s');
+		});
+	</script>
 
 </body>
-</html>
