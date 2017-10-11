@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 html{
   font-family: sans-serif;
@@ -8,7 +8,7 @@ html{
 *{
   padding: 0;
 	margin: 0;
-	font-family: 'Cabin Condensed', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	color: #14140A;
 	list-style: none;
 }
@@ -28,8 +28,8 @@ body{
 .emi{
   display: block;
   margin: auto;
-  width: 12em;
-  height: 12em;
+  width: 10em;
+  height: 10em;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 4%;
@@ -38,14 +38,13 @@ body{
 }
 
 .bio>h2{
-  font-size: 4em;
-  font-family: 'Cabin', sans-serif;
+  font-size: 3em;
   text-align: center;
 }
 
 .bio p{
-  font-size: 1.4em;
-  padding: 0 2%;
+  font-size: 1.25rem;
+  padding: 0 1em;
   text-align: center;
 }
 
@@ -65,25 +64,44 @@ body{
 }
 
 .rs{
-  width: 22vw;
+  width: 25vw;
 }
 
-@media screen and (min-width: 789px){
+@media screen and (min-width: 650px){
+	.rrss li{
+		padding: 0.2em;
+	}
+	.rs{
+		width: 14vw;
+	}
+	.bio p{
+		font-size: 1.4rem;
+		padding: 0 2em;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.rs{
+		width: 12vw;
+	}
+}
+
+@media screen and (min-width: 1061px){
   .datos{
     width: 85%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 32px;
     max-width: 800px;
     min-width: 650px;
-    margin-bottom: 32px;
+		margin-bottom: 32px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
   }
   
   .bio{
-    width: 66%;
-    display: inline-block;
+    width: 70%;
     margin-left: 2%;
-    float: right;
-    height: 200px;
    }
 
   .emi{
@@ -94,15 +112,14 @@ body{
   }
 
   .bio>h2{
-    margin-top: 16px;
-    margin-left: 2%;
     display: inline-block;
     font-size: 3em;
   }
 
   .bio p{
-    font-size: 1.4em;
-    text-align: left;
+    font-size: 1.33rem;
+		text-align: left;
+		padding: 0;
   }
 
   .rrss ul{
@@ -128,7 +145,7 @@ body{
   .rs:hover{
     filter: grayscale(0);
     transform: scale(1.05);
-}
+	}
 }
 
 @-webkit-keyframes fadeInUp {
