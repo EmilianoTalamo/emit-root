@@ -9,7 +9,6 @@ function gotoportfolio()
 	}, 1);
 	setTimeout(function()
 	{
-		//window.location.href = "http://emilianotalamo.github.io/portfolio/";
-		window.location.href = "otraweb/index.html";
+		window.location.href = "http://emilianotalamo.github.io/portfolio/";
 	}, 500);
 }
