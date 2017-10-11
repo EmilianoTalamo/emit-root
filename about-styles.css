@@ -1,12 +1,4 @@
-@font-face {
-  font-family: myriad;
-  src: url('files/MYRIADPRO-COND.OTF');
-}
-
-@font-face {
-  font-family: myriadtwo;
-  src: url('files/MYRIADPRO-SEMIBOLD.OTF')
-}
+@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed');
 
 html{
   font-family: sans-serif;
@@ -15,15 +7,14 @@ html{
 
 *{
   padding: 0;
-  margin: 0;
+	margin: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	color: #14140A;
+	list-style: none;
 }
 
 body{
-  background-color: #F3F3F5;
-}
-
-li{
-  list-style: none;
+  background-color: #F5F5F5;
 }
 
 .underline{
@@ -39,27 +30,23 @@ li{
   margin: auto;
   width: 12em;
   height: 12em;
-  background-image: url(files/thinking.png);
   background-size: cover;
-  background-position: center left;
   background-repeat: no-repeat;
   margin-top: 4%;
   margin-bottom: 4%;
+  border-radius: 50%;
 }
 
 .bio>h2{
   font-size: 4em;
-  font-family: myriad;
-  color: #333;
+  font-family: 'Cabin', sans-serif;
   text-align: center;
 }
 
 .bio p{
-  font-family: myriadtwo;
   font-size: 1.4em;
   padding: 0 2%;
   text-align: center;
-  color: #444;
 }
 
 .rrss ul{
@@ -81,7 +68,7 @@ li{
   width: 22vw;
 }
 
-@media screen and (min-width: 481px){
+@media screen and (min-width: 789px){
   .datos{
     width: 85%;
     margin: auto;
@@ -109,16 +96,13 @@ li{
   .bio>h2{
     margin-top: 16px;
     margin-left: 2%;
-    color: #222;
     display: inline-block;
     font-size: 3em;
   }
 
   .bio p{
-    font-family: myriadtwo;
     font-size: 1.4em;
     text-align: left;
-    color: #222;
   }
 
   .rrss ul{
