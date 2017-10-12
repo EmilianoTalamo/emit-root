@@ -104,7 +104,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<title>Emiliano Tálamo</title>
 	<link rel="stylesheet" href="../about-styles.css">
-	<link rel="shortcut icon" href="files/emi.png">
+  <link rel="shortcut icon" href="files/emi.png">
+  <script src="tiles-array.js"></script>
 </head>
 
 <body>
@@ -125,29 +126,27 @@
 
 	<div class="rrss">
 		<ul>
-			<li><a href="http://facebook.com/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/fb.svg" alt="Facebook" /></a></li>
-			<li><a href="http://twitter.com/emitalamo" target="_blank"><img class="rs" src="files/rrss/tw.svg" alt="Twitter" /></a></li>
-			<li><a href="http://open.spotify.com/user/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/spoty.svg" alt="Spotify" /></a></li>
-			<li><a href="https://ar.linkedin.com/in/guido-emiliano-t%C3%A1lamo-3b893811a" target="_blank"><img class="rs" src="files/rrss/linkedin.svg" alt="LinkedIn" /></a></li>
-			<li><a href="https://www.instagram.com/emilianotalamo/" target="_blank"><img class="rs" src="files/rrss/ig.svg" alt="Instagram" /></a></li>
-			<li><a href="https://www.youtube.com/channel/UCCQdlhWW73mY7FGykZhw9KQ" target="_blank"><img class="rs" src="files/rrss/yt.svg" alt="YouTube" /></a></li>
-			<li><a href="http://steamcommunity.com/id/emilianotalamo/" target="_blank"><img class="rs" src="files/rrss/steam.svg" alt="Steam" /></a></li>
-			<li><a href="https://pinterest.com/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/pinterest.svg" alt="Pinterest" /></a></li>
-			<li><a href="https://www.tvshowtime.com/en/user/5476699/profile" target="_blank"><img class="rs" src="files/rrss/tvst.svg" alt="TVshowtime" /></a></li>
-			<li><a href="http://www.last.fm/user/EmilianoTalamo" target="_blank"><img class="rs" src="files/rrss/lastfm.svg" alt="Last.fm" /></a></li>
-			<li><a href="https://foursquare.com/emilianotalamo" target="_blank"><img class="rs" src="files/rrss/swarm.svg" alt="Swarm" /></a></li>
-			<li><a href="https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q" target="_blank"><img class="rs" src="files/rrss/yelp.svg" alt="Yelp" /></a></li>
-			<li><a href="https://web.telegram.org/#/im?p=@EmilianoTalamo" target="_blank"><img class="rs" src="files/rrss/tg.svg" alt="Telegram" /></a></li>
-			<li><a href="https://github.com/EmilianoTalamo/" target="_blank"><img class="rs" src="files/rrss/git.svg" alt="GitHub" /></a></li>
-			<li><a href="https://plus.google.com/110606509366116572535" target="_blank"><img class="rs" src="files/rrss/gplus.svg" alt="Google Plus" /></a></li>
-			<li><a href="http://snapchat.com/add/emitalamo" target="_blank"><img class="rs" src="files/rrss/snap.svg" alt="Snapchat" /></a></li>
-			<li><a href="https://www.overbuff.com/players/pc/EmiTalamo-1999" target="_blank"><img class="rs" src="files/rrss/bnet.svg" alt="Battle.Net" /></a></li>
-			<li><a href="https://www.reddit.com/user/EmilianoTalamo/" target="_blank"><img class="rs" src="files/rrss/reddit.svg" alt="Reddit" /></a></li>
-			<li><a href="http://forum.xda-developers.com/member.php?u=4062845" target="_blank"><img class="rs" src="files/rrss/xda.svg" alt="XDA-Developers" /></a></li>
+			
 		</ul>
 	</div>
 
-	<script async>
+  <script>
+    var ul = document.getElementsByClassName("rrss")[0].getElementsByTagName("ul")[0];
+    for(var j in tile)
+    {
+      let rs = ul.appendChild(document.createElement("li"));
+      rs.title = tile[j].title;
+      let a = rs.appendChild(document.createElement("a"));
+      a.href = tile[j].href;
+      a.target = "_blank";
+      let icon = a.appendChild(document.createElement("img"));
+      icon.className = "rs";
+      icon.src = "files/rrss/" + tile[j].icon;
+      icon.alt = tile[j].title;
+    }
+  </script>
+
+	<script>
 		window.onload = function()
 		{
 			document.getElementsByClassName("sk-folding-cube")[0].style.display = "None";
