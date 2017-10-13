@@ -21,10 +21,6 @@ body{
   text-decoration: underline;
 }
 
-.datos{
-  width: 100vw;
-}
-
 .emi{
   display: block;
   margin: auto;
@@ -52,7 +48,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 99%;
   margin-top: 5%;
   padding: 0 1%;
 }
