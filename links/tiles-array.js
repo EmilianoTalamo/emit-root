@@ -86,11 +86,6 @@ var tile =
 		"icon" : "bnet.svg"
 	},
 	{
-		"title" : "reddit",
-		"href" : "https://www.reddit.com/user/EmilianoTalamo/",
-		"icon" : "reddit.svg"
-	},
-	{
 		"title" : "XDA-Developers",
 		"href" : "http://forum.xda-developers.com/member.php?u=4062845",
 		"icon" : "xda.svg"
