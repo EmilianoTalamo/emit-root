@@ -22,7 +22,7 @@ var tile =
 	},
 	{
 		"title" : "Instagram",
-		"href" : "https://www.instagram.com/emilianotalamo/",
+		"href" : "https://www.instagram.com/emitalamo/",
 		"icon" : "ig.svg"
 	},
 	{
@@ -32,7 +32,7 @@ var tile =
 	},
 	{
 		"title" : "Steam",
-		"href" : "http://steamcommunity.com/id/emilianotalamo/",
+		"href" : "http://steamcommunity.com/id/emitalamo/",
 		"icon" : "steam.svg"
 	},
 	{
@@ -87,7 +87,7 @@ var tile =
 	},
 	{
 		"title" : "Blizzard BattleNet",
-		"href" : "https://www.overbuff.com/players/pc/EmiTalamo-1999",
+		"href" : "https://www.overbuff.com/players/pc/Emit-11498",
 		"icon" : "bnet.svg"
 	},
 	{
@@ -108,4 +108,6 @@ var tile =
 	// CuriousCat
 	// Medium
 	// Stackexchange
+    // Twitch
+    // Discord
 ]
