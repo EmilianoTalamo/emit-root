@@ -1,11 +1,6 @@
 var tile =
 [
 	{
-		"title" : "Facebook",
-		"href" : "http://facebook.com/emilianotalamo",
-		"icon" : "fb.svg"
-	},
-	{
 		"title" : "Twitter",
 		"href" : "http://twitter.com/emitalamo",
 		"icon" : "tw.svg"
@@ -36,9 +31,14 @@ var tile =
 		"icon" : "steam.svg"
 	},
 	{
-		"title" : "Pinterest",
-		"href" : "https://pinterest.com/emilianotalamo",
-		"icon" : "pinterest.svg"
+		"title" : "Telegram",
+		"href" : "https://web.telegram.org/#/im?p=@EmilianoTalamo",
+		"icon" : "tg.svg"
+	},
+	{
+		"title" : "Discord",
+		"href" : "https://pastebin.com/raw/mLL1dZiQ",
+		"icon" : "discord.svg"
 	},
 	{
 		"title" : "TVshowtime",
@@ -56,14 +56,24 @@ var tile =
 		"icon" : "swarm.svg"
 	},
 	{
+		"title" : "Medium",
+		"href" : "https://medium.com/@EmilianoTalamo",
+		"icon" : "medium.svg"
+	},
+	{
+		"title" : "Pinterest",
+		"href" : "https://pinterest.com/emilianotalamo",
+		"icon" : "pinterest.svg"
+	},
+	{
+		"title" : "Facebook",
+		"href" : "http://facebook.com/emilianotalamo",
+		"icon" : "fb.svg"
+	},
+	{
 		"title" : "Yelp",
 		"href" : "https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q",
 		"icon" : "yelp.svg"
-	},
-	{
-		"title" : "Telegram",
-		"href" : "https://web.telegram.org/#/im?p=@EmilianoTalamo",
-		"icon" : "tg.svg"
 	},
 	{
 		"title" : "GitHub",
@@ -71,9 +81,19 @@ var tile =
 		"icon" : "git.svg"
 	},
 	{
+		"title" : "Twitch",
+		"href" : "https://www.twitch.tv/emitalamo",
+		"icon" : "twitch.svg"
+	},
+	{
 		"title" : "Google Plus",
 		"href" : "https://plus.google.com/110606509366116572535",
 		"icon" : "gplus.svg"
+	},
+	{
+		"title" : "Stack Exchange",
+		"href" : "https://stackexchange.com/users/9294614/emiliano-t%C3%A1lamo?tab=accounts",
+		"icon" : "stackexchange.svg"
 	},
 	{
 		"title" : "Snapchat",
@@ -85,11 +105,9 @@ var tile =
 		"href" : "https://www.overbuff.com/players/pc/Emit-11498",
 		"icon" : "bnet.svg"
 	},
-	{
-		"title" : "XDA-Developers",
-		"href" : "http://forum.xda-developers.com/member.php?u=4062845",
-		"icon" : "xda.svg"
-	},
-	// Medium
-	// Stackexchange
+	// {
+	// 	"title" : "XDA-Developers",
+	// 	"href" : "http://forum.xda-developers.com/member.php?u=4062845",
+	// 	"icon" : "xda.svg"
+	// }
 ]
