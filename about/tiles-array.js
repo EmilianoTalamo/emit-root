@@ -41,11 +41,6 @@ var tile =
 		"icon" : "discord.svg"
 	},
 	{
-		"title" : "Pinterest",
-		"href" : "https://pinterest.com/emilianotalamo",
-		"icon" : "pinterest.svg"
-	},
-	{
 		"title" : "TVshowtime",
 		"href" : "https://www.tvshowtime.com/en/user/5476699/profile",
 		"icon" : "tvst.svg"
@@ -96,6 +91,11 @@ var tile =
 		"icon" : "bnet.svg"
 	},
 	{
+		"title" : "Pinterest",
+		"href" : "https://pinterest.com/emilianotalamo",
+		"icon" : "pinterest.svg"
+	},
+	{
 		"title" : "reddit",
 		"href" : "https://www.reddit.com/user/EmilianoTalamo/",
 		"icon" : "reddit.svg"
@@ -127,7 +127,7 @@ var tile =
 	},
 	{
 		"title" : "Curious Cat",
-		"href" : "http://curiouscat.com/arrobaEmit",
+		"href" : "http://curiouscat.me/arrobaEmit",
 		"icon" : "ccat.svg"
 	}
 ]
