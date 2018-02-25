@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 320 256" style="enable-background:new 0 0 320 256;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#F9C80C;}
-	.st1{fill:#FFFFFF;}
-</style>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 320 256" xml:space="preserve">
 <g id="Guides">
 </g>
 <g id="Layer_2">
-	<rect id="XMLID_1_" class="st0" width="320" height="256"/>
+	<rect id="XMLID_1_" fill="#F9C80C" width="320" height="256"/>
+	<circle display="none" fill="#FF00E1" cx="160.5" cy="128.5" r="95.5"/>
 	<g id="Logo">
-		<path id="XMLID_29_" class="st1" d="M192.1,95.8c0,43.2,0,85.3,0,128c-21.4,0-42.3,0-63.8,0c0-42.4,0-84.7,0-127.7
-			c-21.6,0-42.8,0-64.3,0c0-21.5,0-42.6,0-63.9c63.9,0,127.7,0,192,0c0,21.1,0,42.1,0,63.6C234.9,95.8,213.9,95.8,192.1,95.8z"/>
+		<path id="XMLID_29_" fill="#FFFFFF" d="M182.7,105.2c0,30.6,0,60.4,0,90.7c-15.2,0-30,0-45.2,0c0-30,0-60,0-90.5
+			c-15.3,0-30.3,0-45.5,0c0-15.2,0-30.2,0-45.3c45.3,0,90.5,0,136,0c0,14.9,0,29.8,0,45C213.1,105.2,198.2,105.2,182.7,105.2z"/>
 	</g>
 </g>
 </svg>

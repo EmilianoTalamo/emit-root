@@ -49,7 +49,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5%;
-  padding: 0 1%;
+  padding: 0;
 }
 
 .rrss li{
@@ -59,7 +59,8 @@ body{
 }
 
 .rs{
-  width: 25vw;
+  width: 30vw;
+  border-radius: 6%;
 }
 
 @media screen and (min-width: 650px){
