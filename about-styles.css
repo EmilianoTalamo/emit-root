@@ -49,7 +49,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5%;
-  padding: 0 1%;
+  padding: 0;
 }
 
 .rrss li{
@@ -59,7 +59,8 @@ body{
 }
 
 .rs{
-  width: 25vw;
+  width: 30vw;
+  border-radius: 6%;
 }
 
 @media screen and (min-width: 650px){
@@ -93,7 +94,7 @@ body{
 		align-items: center;
 		justify-content: space-between;
   }
-  
+
   .bio{
     width: 70%;
     margin-left: 2%;
@@ -134,12 +135,14 @@ body{
 
   .rs{
     width: 160px;
+    border-radius: 4px;
     filter: grayscale(0.2);
-    transition: filter 200ms, transform 200ms;
+    transition: filter 200ms, transform 200ms, border-radius 200ms;
   }
   .rs:hover{
     filter: grayscale(0);
     transform: scale(1.05);
+    border-radius: 8px;
 	}
 }
 

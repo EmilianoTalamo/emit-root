@@ -1,11 +1,6 @@
 var tile =
 [
 	{
-		"title" : "Facebook",
-		"href" : "http://facebook.com/emilianotalamo",
-		"icon" : "fb.svg"
-	},
-	{
 		"title" : "Twitter",
 		"href" : "http://twitter.com/arrobaEmit",
 		"icon" : "tw.svg"
@@ -36,14 +31,24 @@ var tile =
 		"icon" : "steam.svg"
 	},
 	{
-		"title" : "Pinterest",
-		"href" : "https://pinterest.com/emilianotalamo",
-		"icon" : "pinterest.svg"
+		"title" : "Telegram",
+		"href" : "https://web.telegram.org/#/im?p=@EmilianoTalamo",
+		"icon" : "tg.svg"
+	},
+	{
+		"title" : "Discord",
+		"href" : "https://pastebin.com/raw/mLL1dZiQ",
+		"icon" : "discord.svg"
 	},
 	{
 		"title" : "TVshowtime",
 		"href" : "https://www.tvshowtime.com/en/user/5476699/profile",
 		"icon" : "tvst.svg"
+	},
+	{
+		"title" : "Medium",
+		"href" : "https://medium.com/@EmilianoTalamo",
+		"icon" : "medium.svg"
 	},
 	{
 		"title" : "LastFM",
@@ -66,11 +71,6 @@ var tile =
 		"icon" : "yelp.svg"
 	},
 	{
-		"title" : "Telegram",
-		"href" : "https://web.telegram.org/#/im?p=@EmilianoTalamo",
-		"icon" : "tg.svg"
-	},
-	{
 		"title" : "GitHub",
 		"href" : "https://github.com/EmilianoTalamo/",
 		"icon" : "git.svg"
@@ -91,9 +91,24 @@ var tile =
 		"icon" : "bnet.svg"
 	},
 	{
+		"title" : "Pinterest",
+		"href" : "https://pinterest.com/emilianotalamo",
+		"icon" : "pinterest.svg"
+	},
+	{
 		"title" : "reddit",
 		"href" : "https://www.reddit.com/user/EmilianoTalamo/",
 		"icon" : "reddit.svg"
+	},
+	{
+		"title" : "Twitch",
+		"href" : "https://www.twitch.tv/emitalamo",
+		"icon" : "twitch.svg"
+	},
+	{
+		"title" : "Facebook",
+		"href" : "http://facebook.com/emilianotalamo",
+		"icon" : "fb.svg"
 	},
 	{
 		"title" : "XDA-Developers",
@@ -104,10 +119,15 @@ var tile =
 		"title" : "AskFM",
 		"href" : "https://ask.fm/EmilianoTalamo",
 		"icon" : "ask.svg"
+	},
+	{
+		"title" : "Stack Exchange",
+		"href" : "https://stackexchange.com/users/9294614/emiliano-t%C3%A1lamo?tab=accounts",
+		"icon" : "stackexchange.svg"
+	},
+	{
+		"title" : "Curious Cat",
+		"href" : "http://curiouscat.me/arrobaEmit",
+		"icon" : "ccat.svg"
 	}
-	// CuriousCat
-	// Medium
-	// Stackexchange
-    // Twitch
-    // Discord
 ]
