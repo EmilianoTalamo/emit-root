@@ -29,12 +29,17 @@
 <body>
 	<div id="overlay">
 		<div class="lds-css ng-scope">
-			<div style="width:100%;height:100%" class="lds-facebook">
+			<div style="width:100%;height:100%;" class="lds-facebook">
 				<div></div>
 				<div></div>
 				<div></div>
 			</div>
 		</div>
+		<script>
+			setTimeout(function() {
+				document.getElementsByClassName("lds-facebook")[0].style.opacity = 1;
+			}, 5);
+		</script>
 	</div>
 	<header>
 		<h1><a href="http://emilianotalamo.github.io/">Emit</a></h1>
