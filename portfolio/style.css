@@ -19,14 +19,14 @@ header h1{
 	line-height: 1;
 }
 header h1 a{
-	font-family: "Rancho";
+	font-family: "Rancho", Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	color: rgba(0,0,0,.9);
 	font-size: 3.33rem;
 }
 
 header p{
-	font-family: "Cabin";
+	font-family: "Cabin", "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 1.4rem;
 	color: rgba(0,0,0,.5);
@@ -43,7 +43,7 @@ header ul.links{
 }
 
 header ul.links li, header ul.links a{
-	font-family: "Roboto";
+	font-family: "Roboto", "Helvetica Neue", "San Francisco", Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: rgba(0,0,0,.6);
@@ -58,7 +58,7 @@ div.contact-container{
 	margin-top: 32px;
 }
 a.contact-btn{
-	font-family: "Roboto";
+	font-family: "Roboto", "Helvetica Neue", "San Francisco", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	font-size: 1.2rem;
 	background-color: #333;
@@ -122,7 +122,7 @@ li.project div.project-info{
 }
 
 div.project-info > h2{
-	font-family: "Roboto";
+	font-family: "Roboto", "Helvetica Neue", "San Francisco", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	margin-bottom: 16px;
 }
@@ -131,7 +131,7 @@ div.project-info > ul{
 	flex-wrap: wrap;
 }
 div.project-info > ul li{
-	font-family: "Cabin";
+	font-family: "Cabin", "Trebuchet MS", Helvetica, sans-serif;
 	color: rgba(0,0,0,.8);
 	background-color: white;
 	padding: 8px;
