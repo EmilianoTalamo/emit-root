@@ -137,7 +137,7 @@ div.project-info > ul li{
 	padding: 8px;
 	margin: 4px 8px 0 0;
 	border-radius: 2px;
-	font-weight: 600;
+	/* font-weight: 600; */
 	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
