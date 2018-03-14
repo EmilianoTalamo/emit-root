@@ -1,25 +1,46 @@
+<!-- Code by Emiliano Tálamo -->
+<!-- emilianotalamo@gmail.com -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Emi Tálamo | Portfolio</title>
-	<style>
-		body{
-			height: 100vh;
-			overflow-y: hidden;
-			display: flex;
-			text-align: center;
-			justify-content: center;
-			align-items: center;
-			color: white;
-			font-family: sans-serif;
-			font-size: 1.33rem;
-			background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
-			text-shadow: 0 1px 2px rgba(0,0,0,0.2);
-		}
-	</style>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108080537-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-108080537-3');
+	</script>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="Guido Emiliano Tálamo | Web Developer | Portfolio">
+	<meta name="keywords" content="Portfolio, proyectos, projects, work, html">
+	<meta name="author" content="Emiliano Tálamo">
+	<meta name="theme-color" content="#fafafa">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+	<link rel="stylesheet" href="style.css">
+	<title>Emiliano Tálamo | Portfolio</title>
 </head>
 <body>
-	<h1>Pronto acá habrá un portfolio muy bonito.</h1>
+	<header>
+		<h1><a href="http://emilianotalamo.github.io/">Emit</a></h1>
+		<p>Web developer &amp; designer from Buenos Aires, Argentina</p>
+		<ul class="links">
+			<li><a href="http://emilianotalamo.github.io/cv">Resume</a></li>
+			<li><a href="https://github.com/emilianotalamo" target="_blank">GitHub</a></li>
+			<li><a href="http://linkedin.com/in/emilianotalamo/" target="_blank">LinkedIn</a></li>
+		</ul>
+		<div class="contact-container">
+			<a href="mailto:emilianotalamo@gmail.com" class="contact-btn">Email me!</a>
+		</div>
+	</header>
+	<main>
+		<ul>
+			<script src="project-tiles.js" async></script>
+		</ul>
+	</main>
 </body>
 </html>
