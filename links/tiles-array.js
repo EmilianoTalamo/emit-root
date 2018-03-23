@@ -65,11 +65,11 @@ var tile =
 		"href" : "https://pinterest.com/emilianotalamo",
 		"icon" : "pinterest.svg"
 	},
-	{
-		"title" : "Facebook",
-		"href" : "http://facebook.com/emilianotalamo",
-		"icon" : "fb.svg"
-	},
+//	{
+//		"title" : "Facebook",
+//		"href" : "http://facebook.com/emilianotalamo",
+//		"icon" : "fb.svg"
+//	},
 	{
 		"title" : "Yelp",
 		"href" : "https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q",
