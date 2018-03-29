@@ -52,7 +52,7 @@ var tile =
 	},
 	{
 		"title" : "4sq/Swarm",
-		"href" : "https://foursquare.com/emilianotalamo",
+		"href" : "https://foursquare.com/user/438021",
 		"icon" : "swarm.svg"
 	},
 	{
