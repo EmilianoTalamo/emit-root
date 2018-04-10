@@ -135,6 +135,6 @@ body{
 	opacity: 0;
   width: 100px !important;
   height: 100px !important;
-  transform: translate(-100px, -130px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -150px) scale(1) translate(100px, 100px);
 	transition: opacity 300ms linear;
 }

@@ -6,7 +6,7 @@ a{
 }
 
 body{
-	background-image: url("./res/cubes.png");
+	background-image: url("../res/cubes.png");
 	background-attachment: fixed;
 }
 
@@ -89,6 +89,7 @@ li.project{
 	position: relative;
 	overflow: hidden;
 	box-shadow: 6px 4px 10px rgba(0,0,0,.1);
+	border-radius: 1px;
 	filter: brightness(0.95);
 	transition: transform 200ms, filter 200ms, box-shadow 200ms;
 }
@@ -214,11 +215,16 @@ li.project:hover div.project-info{
 		margin: 1em 0;
 		filter: brightness(1);
 		box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 8px rgba(0,0,0,0.1);
+		transition: transform 100ms ease-in;
 	}
 	li.project:hover{
 		transform: none;
 		cursor: default;
 		box-shadow: 6px 4px 10px rgba(0,0,0,.1);
+	}
+	li.project:active{
+		transform: scale(0.98);
+		transition: transform 66ms linear;
 	}
 
 	li.project div.project-img{

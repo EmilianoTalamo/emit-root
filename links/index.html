@@ -114,7 +114,7 @@
 	<meta name="msapplication-navbutton-color" content="#f3f3f5">
   <meta name="apple-mobile-web-app-status-bar-style" content="#f3f3f5">
 
-  <link rel="shortcut icon" href="files/emi.png">
+  <link rel="shortcut icon" href="files/favicon.png">
   
 	<link rel="stylesheet" href="../about-styles.css">
   <script src="tiles-array.js"></script>
@@ -122,7 +122,7 @@
 
 <body>
 	<div class="datos">
-		<div class="emi" style="background-image: url(files/thinking.png); background-position: center left;" onclick="document.getElementsByClassName('emi')[0].style.backgroundPosition = 'center right'"></div>
+		<div class="emi" style="background-image: url(files/emi.jpg);"></div>
 		<div class="bio">
 			<h2>Holis</h2>
 
@@ -171,5 +171,19 @@
 		}
 	</script>
 
+  <script>
+    var emi = document.getElementsByClassName("emi")[0];
+    var thinking = null;
+    emi.onclick = function(e) {
+      if(thinking != null) { emi.removeChild(thinking); };
+      thinking = emi.appendChild(document.createElement("img"));
+      thinking.src = "./files/thinking_emoji.png";
+      thinking.style.position = "relative";
+      var x = e.pageX - this.offsetLeft - 50;
+      var y = e.pageY - this.offsetTop - 50;
+      thinking.style.left = x + 'px';
+      thinking.style.top = y + 'px';
+    }
+  </script>
 </body>
 </html>
