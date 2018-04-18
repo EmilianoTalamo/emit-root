@@ -27,10 +27,12 @@ div{
 	transform: translate(-50%,-50%);
 }
 
-h1{
-	font-size: 3em;
-	font-weight: bold;
+h1, h1 a{
+	font-size: 3.33rem;
+	font-weight: 300;
 	text-align: center;
+	font-family: "Rancho", sans-serif;
+	letter-spacing: 1px;
 }
 
 ul{
@@ -96,11 +98,11 @@ ul{
 	width: initial;
 }
 
-.links li a{
+a{
 	transition: text-shadow 200ms ease;
 }
 
-.links li a:hover{
+a:hover{
 	text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 	transition: text-shadow 200ms ease;
 }
@@ -125,8 +127,8 @@ ul{
 		width: 100vw;
 	}
 
-	h1{
-		font-size: 2.8em;
+	h1, h1 a{
+		font-size: 4rem;
 		margin: 0.33em 0;
 	}
 
@@ -134,7 +136,7 @@ ul{
 		width: 64px;
 		height: 64px;
 		background-size: 40px;
-		margin: 0.33em 0.25em;
+		margin: 0.33em 0.16em;
 	}
 
 	.links{
@@ -144,10 +146,10 @@ ul{
 	.links li{
 		display: block;
 		width: 100%;
-		font-size: 1.5em;
+		font-size: 1.33em;
 		line-height: 1.5;
 		margin: 1em 0;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	.links li:first-child{
