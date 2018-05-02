@@ -37,7 +37,7 @@ var tile =
 	},
 	{
 		"title" : "Discord",
-		"href" : "https://pastebin.com/raw/mLL1dZiQ",
+		"href" : "./files/txt/discord.txt",
 		"icon" : "discord.svg"
 	},
 	{
@@ -54,6 +54,11 @@ var tile =
 		"title" : "4sq/Swarm",
 		"href" : "https://foursquare.com/user/438021",
 		"icon" : "swarm.svg"
+	},
+	{
+		"title" : "GOG",
+		"href" : "https://www.gog.com/u/EmilianoTalamo",
+		"icon" : "gog.svg"
 	},
 	{
 		"title" : "Medium",
@@ -96,6 +101,11 @@ var tile =
 		"icon" : "stackexchange.svg"
 	},
 	{
+		"title" : "Origin",
+		"href" : "../links/files/txt/origin.txt",
+		"icon" : "origin.svg"
+	},
+	{
 		"title" : "Snapchat",
 		"href" : "http://snapchat.com/add/emitalamo",
 		"icon" : "snap.svg"
@@ -105,9 +115,9 @@ var tile =
 		"href" : "https://www.overbuff.com/players/pc/Emit-11498",
 		"icon" : "bnet.svg"
 	},
-	// {
-	// 	"title" : "XDA-Developers",
-	// 	"href" : "http://forum.xda-developers.com/member.php?u=4062845",
-	// 	"icon" : "xda.svg"
-	// }
+	{
+		"title" : "XDA-Developers",
+		"href" : "http://forum.xda-developers.com/member.php?u=4062845",
+		"icon" : "xda.svg"
+	}
 ]
