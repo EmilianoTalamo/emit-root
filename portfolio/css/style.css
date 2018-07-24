@@ -6,15 +6,17 @@ a{
 }
 
 body{
-	background-image: url("../res/cubes.png");
+	background-image: url(../res/cubes.png), linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
 	background-attachment: fixed;
 }
 
 header{
 	width: 100%;
+	margin: auto;
+	color: white;
 	text-align: center;
 	padding: 64px 0 86px 0;
-	/* background-color: white; */
+	text-shadow: 0 0 4px rgba(0,0,0,.2);
 }
 
 header h1{
@@ -24,21 +26,20 @@ header h1{
 header h1 a{
 	font-family: "Rancho", Arial, Helvetica, sans-serif;
 	font-weight: 500;
-	color: rgba(0,0,0,.9);
-	font-size: 3.33rem;
+	color: white;
+	font-size: 48px;
 }
 
 header p{
 	font-family: "Cabin", "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: 400;
-	font-size: 1.4rem;
-	color: rgba(0,0,0,.5);
+	font-size: 28px;
 	margin-top: 16px;
 	margin-bottom: 16px;
 }
 
 header ul.links{
-	border-top: 1px solid rgba(0,0,0,.1);
+	border-top: 1px solid rgba(255,255,255,.1);
 	padding: 16px 72px 0;
 	margin: auto;
 	display: inline-block;
@@ -49,12 +50,13 @@ header ul.links li, header ul.links a{
 	font-family: "Roboto", "Helvetica Neue", "San Francisco", Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: rgba(0,0,0,.6);
 	text-align: center;
 	line-height: 1.5;
+	font-size: 18px;
 }
 header ul.links a:hover{
-	color: #673AB7;
+	color: rgba(255,255,255,0.8);
+	text-shadow: none;
 }
 
 div.contact-container{
@@ -62,17 +64,26 @@ div.contact-container{
 }
 a.contact-btn{
 	font-family: "Roboto", "Helvetica Neue", "San Francisco", Helvetica, Arial, sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1.2rem;
-	background-color: #333;
+	background-color: #673AB7;
 	color: white;
 	padding: 12px;
-	border-radius: 6px;
-	transition: background-color 100ms ease-in;
+	border-radius: 4px;
+	border: none;
+	display: inline-block;
+	transition: background-color 100ms linear, transform 200ms ease-out, box-shadow 200ms ease-out;
 }
 a.contact-btn:hover{
-	background-color: #673AB7;
-	transition: background-color 100ms linear;
+	background-color: rgb(110, 69, 180);
+	transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+	transition: background-color 100ms linear, transform 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+main{
+	width: 100%;
+	margin: auto;
 }
 
 main > ul{
@@ -96,7 +107,7 @@ li.project{
 li.project:hover{
 	transform: scale(1.02);
 	filter: brightness(1);
-	cursor: pointer;
+	/* cursor: pointer; */
 	box-shadow: 7px 6px 12px rgba(0,0,0,.1);
 	transition: transform 200ms, filter 200ms, box-shadow 200ms;
 }
@@ -183,7 +194,7 @@ li.project:hover div.project-info{
 /* mobile header */
 @media (max-width: 640px){
 	header{
-		height: 95vh;
+		height: 100vh;
 		min-height: 600px;
 		padding: 2em 1.33em 3em;
 	}

@@ -77,6 +77,12 @@ var tiles = [
 		'tilebg' : '#B71C1C',
 		'tech' : ['HTML', 'CSS', 'JavaScript']
 	},
+	{
+		'name' : 'Tweetdrafter app 2',
+		'shortname' : 'tweetdrafter-app',
+		'tilebg' : '#1E88E5',
+		'tech' : ['jQuery', 'Cordova', 'HTML', 'CSS', 'Illustrator', 'AngularJS', 'JavaScript', 'Sketch', 'Git']
+	}
 ]
 
 // Dibujos vectoriales (Incluido el muñequito de maruco?)
