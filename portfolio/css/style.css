@@ -1,13 +1,23 @@
 *{padding:0;margin:0;box-sizing:border-box;font-family:sans-serif;list-style:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 
+html{
+	background-color: #673AB7;
+}
+
 a{
 	color: inherit;
 	text-decoration: none;
 }
 
 body{
-	background-image: url(../res/cubes.png), linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
-	background-attachment: fixed;
+	background-image: url(../res/cubes.png), linear-gradient( 160deg, #CE9FFC 5%, rgb(122, 59, 173) 100%);
+	background-attachment: fixed, fixed;
+}
+@media (max-width: 786px){
+	body{
+		background-image: url(../res/cubes.png), linear-gradient( 60deg, #CE9FFC 0%, rgb(122, 59, 173) 100%);
+		background-attachment: fixed, scroll;
+	}
 }
 
 header{
@@ -16,7 +26,7 @@ header{
 	color: white;
 	text-align: center;
 	padding: 64px 0 86px 0;
-	text-shadow: 0 0 4px rgba(0,0,0,.2);
+	text-shadow: 0 0 4px rgba(0,0,0,.3);
 }
 
 header h1{
@@ -27,7 +37,7 @@ header h1 a{
 	font-family: "Rancho", Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	color: white;
-	font-size: 48px;
+	font-size: 52px;
 }
 
 header p{
