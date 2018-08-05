@@ -61,6 +61,11 @@ var tile =
 		"icon" : "gog.svg"
 	},
 	{
+		"title" : "Nintendo",
+		"href" : "./files/txt/nintendo.txt",
+		"icon" : "nintendo.svg"
+	},
+	{
 		"title" : "Medium",
 		"href" : "https://medium.com/@EmilianoTalamo",
 		"icon" : "medium.svg"
@@ -69,6 +74,11 @@ var tile =
 		"title" : "Pinterest",
 		"href" : "https://pinterest.com/emilianotalamo",
 		"icon" : "pinterest.svg"
+	},
+	{
+		"title" : "Epic Games",
+		"href" : "https://www.fortbuff.com/players/Emit2k",
+		"icon" : "epic.svg"
 	},
 //	{
 //		"title" : "Facebook",
