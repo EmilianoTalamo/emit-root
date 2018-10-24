@@ -66,6 +66,11 @@ var tile =
 		"icon" : "nintendo.svg"
 	},
 	{
+		"title" : "PlayStation Network",
+		"href" : "https://my.playstation.com/profile/EmiTalamo/",
+		"icon" : "psn.svg"
+	},
+	{
 		"title" : "Medium",
 		"href" : "https://medium.com/@EmilianoTalamo",
 		"icon" : "medium.svg"
@@ -80,11 +85,11 @@ var tile =
 		"href" : "https://www.fortbuff.com/players/Emit2k",
 		"icon" : "epic.svg"
 	},
-//	{
-//		"title" : "Facebook",
-//		"href" : "http://facebook.com/emilianotalamo",
-//		"icon" : "fb.svg"
-//	},
+	{
+		"title" : "Tumblr",
+		"href" : "https://emilianotalamo.tumblr.com",
+		"icon" : "tumblr.svg"
+	},
 	{
 		"title" : "Yelp",
 		"href" : "https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q",
