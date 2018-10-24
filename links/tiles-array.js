@@ -135,4 +135,4 @@ var tile =
 		"href" : "http://forum.xda-developers.com/member.php?u=4062845",
 		"icon" : "xda.svg"
 	}
-]
+];
