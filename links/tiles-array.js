@@ -46,6 +46,11 @@ var tile =
 		"icon" : "tvst.svg"
 	},
 	{
+		"title" : "Letterboxd",
+		"href" : "https://letterboxd.com/emitalamo/",
+		"icon" : "letterboxd.svg"
+	},
+	{
 		"title" : "LastFM",
 		"href" : "http://www.last.fm/user/EmilianoTalamo",
 		"icon" : "lastfm.svg"
@@ -64,6 +69,11 @@ var tile =
 		"title" : "Nintendo",
 		"href" : "./files/txt/nintendo.txt",
 		"icon" : "nintendo.svg"
+	},
+	{
+		"title" : "Mario Maker",
+		"href" : "../links/files/txt/mmaker.txt",
+		"icon" : "mmaker.svg"
 	},
 	{
 		"title" : "PlayStation Network",
@@ -86,11 +96,6 @@ var tile =
 		"icon" : "epic.svg"
 	},
 	{
-		"title" : "Tumblr",
-		"href" : "https://emilianotalamo.tumblr.com",
-		"icon" : "tumblr.svg"
-	},
-	{
 		"title" : "Yelp",
 		"href" : "https://www.yelp.com.ar/user_details?userid=W7G7480kF5S8OvUkfkya8Q",
 		"icon" : "yelp.svg"
@@ -104,11 +109,6 @@ var tile =
 		"title" : "Twitch",
 		"href" : "https://www.twitch.tv/emitalamo",
 		"icon" : "twitch.svg"
-	},
-	{
-		"title" : "Google Plus",
-		"href" : "https://plus.google.com/110606509366116572535",
-		"icon" : "gplus.svg"
 	},
 	{
 		"title" : "Stack Exchange",
