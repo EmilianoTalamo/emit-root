@@ -36,3 +36,18 @@
 		}
 	}
 }
+
+.links--button {
+	font-family: $primaryFont;
+	color: $textLight;
+	text-transform: none;
+	font-weight: 600;
+	font-size: 1rem;
+	transition: text-shadow 200ms ease;
+	border: none;
+	&:hover {
+		background: none;
+		border: none;
+		text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+	}
+}

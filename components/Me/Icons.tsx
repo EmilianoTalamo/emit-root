@@ -28,7 +28,12 @@ const Icons = () => {
 		<ul className={styles.icons}>
 			{list.map((item) => (
 				<li key={item.title} className={styles['icons--item']}>
-					<a target="_blank" href={item.link} className={styles['icons--link']}>
+					<a
+						title={item.title}
+						target="_blank"
+						href={item.link}
+						className={styles['icons--link']}
+					>
 						<Button variant="text">
 							<SvgIcon>{item.icon}</SvgIcon>
 						</Button>
