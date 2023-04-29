@@ -44,7 +44,6 @@ const Spotify = () => {
 
 	return (
 		<div>
-			<pre>{JSON.stringify(apidata?.error?.status)}</pre>
 			{apidata !== null && apidata?.item && <Player spotifyData={apidata} />}
 		</div>
 	)

@@ -4,8 +4,8 @@ html {
 }
 
 *::selection {
-	background-color: #0078d7;
-	color: white;
+	background-color: $textLight;
+	color: $primary;
 }
 
 * {

@@ -1,0 +1,26 @@
+html {
+	background: $primary;
+}
+
+body {
+	min-height: 100vh;
+	
+}
+
+body, body * {
+	font-family: $primaryFont;
+	color: $textLight;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: $secondaryFont;
+	font-size: 3.33rem;
+	font-weight: 300;
+}
