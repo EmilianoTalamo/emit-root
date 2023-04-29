@@ -12,7 +12,9 @@ const Player = ({
 		<aside className={styles.player}>
 			<figure className={styles['album--cover']}>
 				<img
-					src={spotifyData?.item.album.images[0]?.url || '/img/default_album.svg'}
+					src={
+						spotifyData?.item.album.images[0]?.url || '/img/default_album.svg'
+					}
 					alt={spotifyData?.item.album.name}
 				/>
 			</figure>
@@ -21,7 +23,6 @@ const Player = ({
 					{spotifyData.is_playing
 						? `I'm currently listening to`
 						: `The last song I've listened was`}
-					:{' '}
 				</span>
 				<span className={styles['title--song']}>
 					{spotifyData?.item.artists[0].name} - {spotifyData?.item.name}

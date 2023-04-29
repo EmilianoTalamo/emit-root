@@ -1,0 +1,38 @@
+.me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	@include mqL {
+		gap: 1.2rem;
+	}
+}
+
+.icons--item {
+	width: 2.5rem;
+	height: 2.5rem;
+
+	* {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+.icons--link {
+	display: flex;
+	justify-content: center;
+	transition: transform 250ms ease;
+	will-change: transform;
+	@include mqL {
+		&:hover {
+			transform: scale(1.15);
+		}
+	}
+}

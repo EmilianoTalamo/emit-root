@@ -4,10 +4,10 @@ html {
 
 body {
 	min-height: 100vh;
-	
 }
 
-body, body * {
+body,
+body * {
 	font-family: $primaryFont;
 	color: $textLight;
 }
@@ -17,6 +17,10 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	& > * {
+		z-index: 1;
+	}
 }
 
 h1 {
