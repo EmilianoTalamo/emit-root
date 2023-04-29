@@ -34,7 +34,7 @@ const Icons = () => {
 						href={item.link}
 						className={styles['icons--link']}
 					>
-						<Button variant="text">
+						<Button variant="text" className={styles['icons--button']}>
 							<SvgIcon>{item.icon}</SvgIcon>
 						</Button>
 					</a>

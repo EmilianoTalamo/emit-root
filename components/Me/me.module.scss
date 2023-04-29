@@ -3,21 +3,40 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 1rem;
+	gap: 2rem;
+
+	@include mqL {
+		gap: 1rem;
+	}
+}
+
+.name {
+	font-family: $secondaryFont;
+	font-weight: 300;
+	font-size: 4rem;
+	@include mqL {
+		font-size: 3.33rem;
+	}
 }
 
 .icons {
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
+
 	@include mqL {
 		gap: 1.2rem;
 	}
 }
 
 .icons--item {
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 3rem;
+	height: 3rem;
+
+	@include mqL {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
 
 	* {
 		height: 100%;
@@ -30,6 +49,7 @@
 	justify-content: center;
 	transition: transform 250ms ease;
 	will-change: transform;
+
 	@include mqL {
 		&:hover {
 			transform: scale(1.15);
@@ -37,14 +57,25 @@
 	}
 }
 
+.icons--button {
+	&:hover {
+		background: none;
+	}
+}
+
 .links--button {
 	font-family: $primaryFont;
 	color: $textLight;
 	text-transform: none;
-	font-weight: 600;
-	font-size: 1rem;
+	font-weight: 500;
+	font-size: 1.33rem;
 	transition: text-shadow 200ms ease;
 	border: none;
+
+	@include mqL {
+		font-size: 1rem;
+	}
+
 	&:hover {
 		background: none;
 		border: none;
