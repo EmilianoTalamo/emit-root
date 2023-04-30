@@ -8,7 +8,6 @@ import Player from './Player'
 const Spotify = () => {
 	const [auth, setAuth] = useState<false | string>(false)
 
-
 	const endpoint = 'https://api.spotify.com/v1/me/player/currently-playing'
 
 	const { apidata } = useApi<ICurrentlyPlayingResponse>(
@@ -16,7 +15,7 @@ const Spotify = () => {
 		'GET',
 		undefined,
 		auth || '',
-		!!auth
+		!!auth,
 	)
 
 	const getAuth = async () => {
@@ -34,12 +33,12 @@ const Spotify = () => {
 	useEffect(() => {
 		// Revalidate token if it expires
 		if (apidata !== null && apidata?.error?.status === 401) getAuth()
-	}, [apidata])
+	}, [apidata?.error])
 
 	const { mutate } = useSWRConfig()
 	useEffect(() => {
 		// Try to fetch API when token changes
-		if(auth) mutate(`${endpoint}GET`)
+		if (auth) mutate(`${endpoint}GET`)
 	}, [auth])
 
 	return (
