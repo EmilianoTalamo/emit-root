@@ -1,0 +1,67 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"next/core-web-vitals",
+		"airbnb-base",
+		"airbnb-typescript/base",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json",
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "prettier", "etc", "@typescript-eslint"],
+	"rules": {
+		"implicit-arrow-linebreak": "off",
+		"operator-linebreak": "off",
+		"no-unused-expressions": "off",
+		"eqeqeq": "off",
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"js": "never",
+				"jsx": "never",
+				"ts": "never",
+				"tsx": "never"
+			}
+		],
+		"semi": ["warn", "never"],
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/forbid-prop-types": "off",
+		"react/jsx-indent": [2, "tab"],
+		"react/jsx-indent-props": [2, "tab"],
+		"etc/no-commented-out-code": "warn",
+		"no-tabs": 0,
+		"no-mixed-spaces-and-tabs": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": "warn",
+		"@typescript-eslint/no-shadow": "off",
+		"arrow-body-style": "off",
+		"consistent-return": "off",
+		"@typescript-eslint/no-use-before-define": "warn",
+		"prefer-const": "warn",
+		"import/prefer-default-export": "off",
+		"no-console": ["error", { "allow": ["warn", "error", "info"] }],
+		"@typescript-eslint/no-unused-expressions": "off",
+		"prefer-destructuring": "warn",
+		"import/no-extraneous-dependencies": "off",
+		"import/no-cycle": "off",
+		"react-hooks/exhaustive-deps": "off",
+		"no-throw-literal": "off",
+		"@typescript-eslint/no-throw-literal": "off",
+		"no-underscore-dangle": "off",
+		"@next/next/no-img-element": "off"
+	}
+}

@@ -1,0 +1,40 @@
+.player {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.album--cover {
+	width: 64px;
+	height: 64px;
+	display: none;
+	font-size: 0.66rem;
+	@include mqT {
+		display: block;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 0.33rem;
+	font-size: 0.9rem;
+}
+
+.title--status {
+}
+
+.title--song {
+	font-weight: 500;
+	max-width: 90vw;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
